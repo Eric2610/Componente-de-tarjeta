@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.cuerpo{
+    width: 1440px;
+    background-color: black; 
+}
+
+.contenedor-1{
+    background-color: hsl(244, 38%, 16%);
+    width: 1200px;
+    height: 445px;
+    margin: 200px;
+    margin-left: 350px;
+    padding-top: 50px;
+}
+
+img{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: -330px;
+}
+
+.texto{
+    color: white;
+    width: 400px;
+    margin-left: 100px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+.encabezado{
+    width: 400px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+
+}
+
+.bold{
+    color: hsl(277, 64%, 61%);
+}
+
+.pie{
+    color: white;
+    width: 400px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.caja-1,
+.caja-2,
+.caja-3{
+    position: absolute;
+}
+
+.caja-2{
+    margin-left: 150px;
+}
+
+.caja-3{
+    margin-left: 300px;
+}
+
+
+.subtitulo-1,
+.subtitulo-2,
+.subtitulo-3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.subtexto-1,
+.subtexto-2,
+.subtexto-3{
+    font-family:'Inter', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
